@@ -1,0 +1,16 @@
+{
+  "name": "usdt-transaction-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of how pending USDT transactions work",
+  "main": "index.js",
+  "scripts": {
+    "start:web3": "node web3-demo.js",
+    "start:ethers": "node ethers-demo.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^5.8.0",
+    "web3": "^1.10.4"
+  }
+}

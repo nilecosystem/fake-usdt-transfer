@@ -42,4 +42,7 @@ pids
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+
+# macOS
+.DS_Store 

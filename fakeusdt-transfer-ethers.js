@@ -1,4 +1,5 @@
-/**
+
+/**require('dotenv').config();
  * ethers-demo.js
  * 
  * Demonstrates how to create a fake pending USDT transaction using ethers.js
